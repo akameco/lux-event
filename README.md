@@ -1,4 +1,4 @@
-# lux-event [![Build Status](https://travis-ci.org/akameco/lux-eventsvg?branch=master)](https://travis-ci.org/akameco/lux-event)
+# lux-event [![Build Status](https://travis-ci.org/akameco/lux-event.svg?branch=master)](https://travis-ci.org/akameco/lux-event)
 
 > get lux value by eventemitter for osx user
 
