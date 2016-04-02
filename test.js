@@ -1,10 +1,9 @@
 import test from 'ava';
-import LuxEvent from '.';
+import luxEvent from './';
 
 test('change event', async t => {
-	const lux = new LuxEvent();
-	lux.on('change', v => {
+	luxEvent.on('change', v => {
 		t.true(v >= 0);
 	});
-	lux.emit('change', 1);
+	luxEvent.emit('change', 1);
 });

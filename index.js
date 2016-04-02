@@ -29,4 +29,4 @@ class LuxEvent extends EventEmitter {
 	}
 }
 
-module.exports = LuxEvent;
+module.exports = new LuxEvent();
