@@ -1,6 +1,6 @@
 'use strict';
-const ambientLight = require('ambient-light');
 const EventEmitter = require('events').EventEmitter;
+const ambientLight = require('ambient-light');
 
 class LuxEvent extends EventEmitter {
 	constructor() {
